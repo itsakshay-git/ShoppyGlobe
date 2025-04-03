@@ -15,6 +15,7 @@ import useFetchProducts from '../hook/useFetchProducts';
 import { useDispatch, useSelector } from 'react-redux';
 import Toast from '../components/Toast/Toast';
 import ProductItem from '../components/ProductItem/ProductItem';
+import './Home.css';
 
 const Home = () => {
   const { products } = useFetchProducts();
