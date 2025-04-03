@@ -37,6 +37,7 @@ const TopProduct = () => {
       autoHeight={true}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       style={{ height: "520px", paddingTop: "150px"}}
+      className='swiper-small-screen'
     >
       <SwiperButton />
       {topProduct.map((product) => (

@@ -27,6 +27,7 @@
     width: 120px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .button-wrapper>button{
@@ -54,5 +55,14 @@
 
       .slide-wrapper{
         height: 300px !important;
+      }
+
+      .swiper-small-screen{
+        height: 400px !important;
+      }
+
+      .button-wrapper>button{
+        width: 35px;
+        height: 35px; 
       }
 }

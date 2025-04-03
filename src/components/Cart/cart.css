@@ -323,7 +323,8 @@
     }
 
     .handle-quantity{
-      width: 80px;
+      width: 55px;
+      font-size: 9px;
     }
 
     .button-group{
@@ -338,6 +339,20 @@
     .cart-btn>img{
       width: 20px;
       height: 25px;
+    }
+
+    .select-upi{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 10px;
+    }
+  
+    .select-cod{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 10px;
     }
   }
   
