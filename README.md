@@ -65,7 +65,7 @@ src/
 │   ├── CartItem/           # Component for displaying individual cart items
 │   ├── Footer/             # Footer component (used at the bottom of every page)
 │   ├── Header/             # Header component (includes navigation, logo, etc.)
-│   ├── MiniNav/            # Mini navigation component (used for smaller sections like sub-categories)
+│   ├── MiniNav/            # Mini navigation component navigation for small screen.
 │   ├── Navbar/             # Main navigation bar component (contains links to pages)
 │   ├── NotFound/           # Not Found page (404 page displayed when no page is found)
 │   ├── ProductDetail/      # Component displaying detailed info for a selected product
