@@ -8,7 +8,7 @@ https://online-library-system-one.vercel.app/
 
 # Git Repository
 
-https://github.com/itsakshay-git/Online-Library-System
+https://github.com/itsakshay-git/ShoppyGlobe
 
 ## Features
 
