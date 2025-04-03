@@ -10,6 +10,11 @@ https://e.vercel.app/
 
 https://github.com/itsakshay-git/ShoppyGlobe
 
+![Screenshot 2025-04-03 233509](https://github.com/user-attachments/assets/d99775aa-9c54-4ac4-82bd-0176c1db59b4)
+
+![Screenshot 2025-04-03 233550](https://github.com/user-attachments/assets/2a065b20-8502-432c-bc15-9066092539bc)
+
+
 ## Features
 
 - **Product Browsing**: View products in various categories, including beauty, fragrances, groceries, and more.
