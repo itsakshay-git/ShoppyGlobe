@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2F6133;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+      padding: 25px;
+  }
