@@ -4,7 +4,7 @@ ShoppyGlobe is a modern e-commerce web app built with React, Redux, and Swiper.j
 
 # Live Demo
 
-https://e.vercel.app/
+[https://e.vercel.app/](https://shoppy-globe-five.vercel.app/)
 
 # Git Repository
 
