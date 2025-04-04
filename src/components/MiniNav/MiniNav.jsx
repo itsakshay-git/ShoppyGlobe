@@ -15,10 +15,10 @@ const MiniNav = () => {
     <>
      <ul className='home-nav-item'>
         <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>
-        <li className='home-link'>home</li>
+        <li className='home-link'>Home</li>
         </Link>
         <Link to="/product" className={`nav-link ${location.pathname === '/product' ? 'active' : ''}`}>
-        <li className='product-link'>product list</li>
+        <li className='product-link'>Product list</li>
         </Link>
       </ul>
     </>

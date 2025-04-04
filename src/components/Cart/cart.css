@@ -93,7 +93,7 @@
     border: none;
     border: 1px solid white;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 8px;
     min-height: 100px;
     color: white;
   }
@@ -353,6 +353,14 @@
       align-items: center;
       gap: 15px;
       font-size: 10px;
+    }
+
+    .grid-container {
+      display: block;
+    }
+
+    .input-wrapper{
+      padding-bottom: 10px;
     }
   }
   

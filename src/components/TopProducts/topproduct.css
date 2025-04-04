@@ -61,8 +61,17 @@
         height: 400px !important;
       }
 
+      .button-wrapper{
+        padding: 6px;
+      }
+
       .button-wrapper>button{
         width: 35px;
         height: 35px; 
+      }
+
+      .btn-icon{
+        width: 10px;
+        height: 10px;
       }
 }

@@ -70,6 +70,12 @@ const ProductList = () => {
     setFilteredProducts(filtered);
   }
 
+  const HandleEnter = (e) => {
+    if(e.key === "Enter"){
+      handleSearch()
+    }
+  }
+
   if (loading) return (<div className="loading-state"><div><div className="loader"></div></div></div>);
   if (error) return (<div className="loading-state"><p>Error: {error}</p></div>);
 
@@ -104,6 +110,7 @@ const ProductList = () => {
             placeholder="Search products..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={HandleEnter}
             className="search-input"
           />
           <button className="search-btn" onClick={handleSearch}>

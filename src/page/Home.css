@@ -64,6 +64,14 @@
 
 @media (min-width: 320px) and (max-width: 599px){
 
+    .product{
+        border-radius: 10px;
+    }
+
+    .product-image{
+        border-radius: 10px;
+    }
+
     .category-btn {
         padding: 8px 15px;
         font-size: 12px;
@@ -76,6 +84,10 @@
     .product-list{
         justify-content: space-evenly;
         gap: 20px;
+    }
+
+    .product-title{
+        font-size: 10px;
     }
 
     .all-product-title{

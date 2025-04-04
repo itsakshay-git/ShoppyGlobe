@@ -97,38 +97,38 @@ const Cart = () => {
           <div className="delivery-info">
             <p>Delivery Information</p> 
             <div className="grid-container">
-              <div>
+              <div className="input-wrapper">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" placeholder="Name" value={form.name} onChange={handleChange} />
               {errors.name && <p className="error">{errors.name}</p>}
               </div>
 
-              <div>
+              <div className="input-wrapper">
                 <label htmlFor="mobile">Mobile</label>
                 <input type="text" name="mobile" id="mobile" placeholder="Mobile Number" value={form.mobile} onChange={handleChange} />
                 {errors.mobile && <p className="error">{errors.mobile}</p>}
               </div>
 
-              <div>
+              <div className="input-wrapper">
                 <label htmlFor="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="Email" value={form.email} onChange={handleChange} />
                 {errors.email && <p className="error">{errors.email}</p>}
               </div>
 
-              <div>
+              <div className="input-wrapper">
                 <label htmlFor="city">City</label>
                 <input type="text" name="city" id="city" placeholder="City" value={form.city} onChange={handleChange} />
                 {errors.city && <p className="error">{errors.city}</p>}
               </div>
 
-              <div>
+              <div className="input-wrapper">
                 <label htmlFor="state">State</label>
                 <input type="text" name="state" id="state" placeholder="State" value={form.state} onChange={handleChange} />
                 {errors.state && <p className="error">{errors.state}</p>}
               </div>
 
 
-              <div>
+              <div className="input-wrapper">
                 <label htmlFor="zip">Zip</label>
                 <input type="text" name="zip" id="zip" placeholder="Zip Code" value={form.zip} onChange={handleChange} />
                 {errors.zip && <p className="error">{errors.zip}</p>}
